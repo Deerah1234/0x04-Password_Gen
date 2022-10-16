@@ -29,7 +29,7 @@ int main(void)
 		}
 		while (ch[idx])
 		{
-			if (ch[idx] == 2772)
+			if (ch[idx] == (2772-key))
 			{
 				rnum = rand() % 63;
 				psswrd[cunter] = ch[rnum];
